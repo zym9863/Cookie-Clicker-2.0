@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/assets/cookie_background.png');
+  background-image: url('../assets//cookie_background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
