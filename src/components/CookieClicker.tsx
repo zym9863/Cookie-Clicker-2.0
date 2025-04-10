@@ -132,7 +132,7 @@ export function CookieClicker() {
       padding: '20px',
       textAlign: 'center'
     }}>
-      <img src="../assets/game_logo.png" alt="Game Logo" style={{ width: '300px', marginBottom: '20px' }} />
+      <img src="/game_logo.png" alt="Game Logo" style={{ width: '300px', marginBottom: '20px' }} />
       <h1>Cookie Clicker 2.0</h1>
 
       <div className="stats" style={{ marginBottom: '20px' }}>
@@ -154,7 +154,7 @@ export function CookieClicker() {
             position: 'relative'
           }}
         >
-          <img src="../assets/cookie_icon.png" alt="Cookie" style={{ width: '200px', height: '200px' }} />
+          <img src="/cookie_icon.png" alt="Cookie" style={{ width: '200px', height: '200px' }} />
           {Array.from({ length: cracks }).map((_, i) => (
             <div key={i} className="crack visible" style={{
               transform: `translate(-50%, -50%) rotate(${45 + i * 30}deg)`
@@ -189,7 +189,7 @@ export function CookieClicker() {
               opacity: upgrade.purchased ? 0.5 : 1
             }}
           >
-            <img src="../assets/upgrade_icon.png" alt="Upgrade" style={{ width: '30px', height: '30px', verticalAlign: 'middle', marginRight: '5px' }} />
+            <img src="/upgrade_icon.png" alt="Upgrade" style={{ width: '30px', height: '30px', verticalAlign: 'middle', marginRight: '5px' }} />
             {upgrade.name} ({upgrade.cost} 饼干)
             <br />
             <small>{upgrade.description}</small>
